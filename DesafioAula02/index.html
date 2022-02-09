@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+    <title>ChronosAcademy - Desafio 02</title>
+  </head>
+  <body>
+    <header>
+      <h1>Desafio 02</h1>
+    </header>
+    <section>
+      <h2>
+        Entrar via teclado com a base e a altura de um triângulo, calcular e
+        exibir sua área
+      </h2>
+      <form action="#">
+        <p>
+          <label for="baseTriangulo">Base</label>
+          <input
+            type="number"
+            name="baseTriangulo"
+            id="baseTriangulo"
+            autofocus
+            required
+          />
+        </p>
+        <p>
+          <label for="alturaTriangulo">Altura</label>
+          <input
+            type="number"
+            name="alturaTriangulo"
+            id="alturaTriangulo"
+            required
+          />
+        </p>
+        <p>
+          <label>Resultado</label>
+          <input type="number" name="resultado" id="resultado" disabled />
+        </p>
+        <input type="button" value="Calcular" onclick="calcTriangleArea()" />
+        <input type="reset" value="Limpar" />
+      </form>
+    </section>
+    <footer>
+      <h3>
+        Criado no curso de Lógica de Programação sem Complicação -
+        HTML5+JavaScript
+      </h3>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
